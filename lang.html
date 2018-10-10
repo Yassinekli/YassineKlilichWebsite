@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yassine Klilich</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400" rel="stylesheet">
+    <style>
+        body {
+            margin: 0; 
+            font-family: 'Heebo', 'Calibri', sans-serif;
+        }
+        .lang-ctr {height: 100vh;}
+
+        .btn-ctr {
+            position: relative;
+            top: 25%;
+            text-align: center;
+        }
+
+        .ctr{
+            display: inline-block;
+        }
+
+        .eng-ctr, .fr-ctr{
+            border: 1px solid #222222;
+            margin-bottom: 10px;
+        }
+
+        .btn-ctr button{
+            font-size: 1.5em;
+            background-color: #fff;
+            border: none;
+            padding: 5px 10px;
+            width: 100%;
+            font-family: 'Calibri', sans-serif;
+        }
+        
+        .btn-ctr button:hover{
+            background-color: #222222;
+            color: #fff;
+        }
+
+        .btn-ctr button:focus{
+            outline: none;
+        }
+        
+        .img-ctr{
+            position: absolute;
+            bottom: 0px;
+            width:100%;
+            z-index: -1;
+        }
+
+        .lang-design{
+            position: relative;
+            display: block;
+            margin-left: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="lang-ctr">
+        <div class="btn-ctr">
+            <div class="ctr">
+                <div class="eng-ctr">
+                    <button>English</button>
+                </div>
+                <div class="fr-ctr">
+                    <button>Français</button>
+                </div>
+            </div>
+        </div>
+        <div class="img-ctr">
+            <img class="lang-design" src="img/Language Design.svg">
+        </div>
+    </div>
+</body>
+</html>

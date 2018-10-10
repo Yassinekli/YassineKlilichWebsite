@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="140px" height="252px" viewBox="0 0 140 252" enable-background="new 0 0 140 252" xml:space="preserve">
+<g>
+	<path fill="none" stroke="#161616" stroke-width="2" stroke-miterlimit="10" d="M37.965,178.006C17.55,178.006,1,161.568,1,141.292
+		c0-20.276,16.55-36.714,36.965-36.714h14.786"/>
+	<path fill="none" stroke="#161616" stroke-width="2" stroke-miterlimit="10" d="M37.965,178.006
+		c41.145,0,74.499,33.129,74.499,73.994"/>
+	<path fill="none" stroke="#161616" stroke-width="2" stroke-miterlimit="10" d="M1.001,53.178V252"/>
+	<path fill="none" stroke="#161616" stroke-width="2" stroke-miterlimit="10" d="M59.721,47.43c0-6.394,5.218-11.577,11.656-11.577
+		s11.656,5.183,11.656,11.577"/>
+	<path fill="none" stroke="#161616" stroke-width="2" stroke-miterlimit="10" d="M22.472,47.43c0-6.394,5.219-11.577,11.656-11.577
+		s11.656,5.183,11.656,11.577"/>
+	<path fill="none" stroke="#161616" stroke-width="2" stroke-miterlimit="10" d="M92.625,69.793V43.861h46.15v32.779H85.238
+		l11.805-10.943"/>
+	<path fill="none" stroke="#161616" stroke-width="2" stroke-miterlimit="10" d="M99.342,76.916
+		c-8.734,16.449-26.125,27.662-46.15,27.663c-28.798,0-52.143-23.188-52.143-51.79C1.049,24.188,24.393,1,53.191,1
+		c25.68,0,47.023,18.438,51.345,42.712"/>
+</g>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="100.75" y="31" width="32" height="58">
+		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="100.75" y="31" width="32" height="58" id="mask0_2_">
+	<circle fill="#FFFFFF" filter="url(#Adobe_OpacityMaskFilter)" stroke="#000000" cx="116.75" cy="60" r="12.5"/>
+</mask>
+<g mask="url(#mask0_2_)">
+	<circle fill="none" stroke="#161616" cx="116.75" cy="60" r="11.5"/>
+	<circle fill="none" stroke="#161616" cx="116.75" cy="43" r="11.5"/>
+	<path fill="none" stroke="#161616" d="M132.25,60c0,7.531-5.219,13.5-11.5,13.5s-11.5-5.969-11.5-13.5
+		c0-7.531,5.219-13.5,11.5-13.5S132.25,52.469,132.25,60z"/>
+	<path fill="none" stroke="#161616" d="M124.25,60c0,7.531-5.219,13.5-11.5,13.5s-11.5-5.969-11.5-13.5
+		c0-7.531,5.219-13.5,11.5-13.5S124.25,52.469,124.25,60z"/>
+	<circle fill="none" stroke="#161616" cx="116.75" cy="77" r="11.5"/>
+	<line fill="none" stroke="#161616" x1="104.75" y1="59.5" x2="127.75" y2="59.5"/>
+	<line fill="none" stroke="#161616" x1="116.25" y1="48" x2="116.25" y2="72"/>
+</g>
+</svg>

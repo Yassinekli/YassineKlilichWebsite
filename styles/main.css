@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', 'Segoe UI', 'Calibri', sans-serif;
+}
+
+/* Showcase */
+.showcase{
+    background-image: url(../img/bg-mountain.jpg);
+    height: 100vh;
+    min-height: 568px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.showcase-grid{
+    height: 100vh;
+    min-height: inherit;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+
+.logo{
+    padding-top: 10%;
+    align-self: end;
+    width: 70%;
+}
+
+.quote-ctr{
+    align-self: center;
+    display: grid;
+    color: white;
+}
+
+.quote{
+    font-size: 7vw;
+    font-weight: 400;
+}
+
+.author{
+    font-weight: 200;
+    justify-self: end;
+}
+
+.quote-sign{
+    width: 50px;
+    padding-top: 20px;
+    justify-self: center;
+}
+
+/* Presentation */
+.present{
+    display: grid;
+    justify-items: center;
+    padding: 0 20px;
+}
+
+.img-ctr .img-frame{
+    position: relative;
+}
+
+.img{
+    display: block;
+    margin-top: 30px;
+    width: 220px;
+}
+
+.img-ctr .img-frame::after{
+    content: " ";
+    position: absolute;
+    right: -10px;
+    bottom: 0px;
+    border: 1px solid #222222;
+    height: 70px;
+}
+
+.img-ctr .img-frame::before{
+    content: " ";
+    position: absolute;
+    left: -10px;
+    border: 1px solid #222222;
+    height: 70px;
+}
+
+.name-ctr{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hi{
+    font-size: 1.3em;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.hi-frame{
+    position: relative;
+    overflow: hidden;
+}
+
+.hi-frame::before{
+    position: absolute;
+    content: " ";
+    border: 1px solid #222222;
+    width: 100%;
+    top: 40%;
+    left: 0px;
+    z-index: -20;
+}
+
+.name-ctr .name{
+    font-size: 1.7em;
+    line-height: 1;
+}
+
+.paragraph-ctr{
+    margin-top: 15px;
+}
+
+/* Line break */
+.line-break{
+    border: 1px solid #222222;
+    width: 100px;
+    margin: 30px auto;
+}
+
+/* Education & Experience */
+.career{
+    margin: 40px 10px auto 10px;
+}
+
+.title{
+    font-size: 7vw;
+    color: white;
+    background-color: #222222;
+    padding: 0 10px;
+}
+
+.block-ctr{
+    margin-top: 20px;
+}
+
+.point-timeline{
+    width: 15px;
+    height: 15px;
+    background-color: #222222;
+    border-radius: 50%;
+}
+
+.info-ctr{
+    border-left: 2px solid #222222;
+    margin-left: 7px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    margin-top: -15px;
+    display: inline-block;
+}
+
+.info{
+    font-size: 1.2em;
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+.date, .location{
+    font-size: 17px;
+}
+
+.date{
+    line-height: 1;
+}
+
+.edu .block-ctr .block:last-child .info-ctr, .exp .block-ctr .block:last-child .info-ctr{
+    border: none;
+    padding-bottom: 0;
+}
+
+/* Skills */
+.skill-ctr{
+    margin-top: 20px;
+}
+
+.skill-block{
+    margin: 10px 0;
+}
+
+.skill-title{
+    position: relative;
+    font-size: 1.4em;
+    
+}
+
+.skill-title::before{
+    content: " ";
+    border: 1px solid #222222;
+    position: absolute;
+    bottom: 0px;
+    width: 50px;
+}
+
+.skills{
+    margin: 10px 0;
+}
+
+/* Footer & Contact */
+.contact-ctr{
+    background-color: #222222;
+    margin-top: 30px;
+    padding: 10px 10px;
+}
+
+.contact-title{
+    font-size: 7vw;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.grid-table{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.icon-ctr, .lang-ctr{
+    grid-column: 1/2;
+}
+
+.icon{
+    font-size: 20px;
+    color: white;
+}
+
+.logo-white{
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.logo-white img{
+    width: 50px;
+}
+
+.lang-ctr, .lang{
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    align-self: end;
+}
+
+.current-lang{
+    font-weight: 500;
+}
